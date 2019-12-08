@@ -1,0 +1,50 @@
+
+h1{
+    text-align: center;
+    font-family: 'Baskervville', serif;
+    color: blue;
+    margin-top: 40px;
+
+    
+}
+.btn{
+    color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+label{
+    font-family: 'Noto Serif', serif;
+
+color: blue;
+}
+input.btn{
+
+    margin: 20px;
+    text-align: center;
+}
+.header{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto;
+    column-gap: 30px;
+}
+fieldset{
+    border-radius: 5px;
+    margin : 0px 250px 0px 250px;
+}
+.infor{
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto ;
+    row-gap: 15px;
+    margin-left: 0px;
+}
+legend{
+    font-family: 'Kalam', cursive;
+    font-style: oblique;
+}
+input{
+    margin-left: 10px;
+    
+    
+}

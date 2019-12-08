@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Baskervville|Noto+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
     <title>formulairegrindcss</title>
 </head>
 <body>
-    <h2>hello family</h2>
+    <div class="header">
+        <div>
+                 <img src="images/ensa.png">
+        </div>
+    <h1>Ecole Nationale des Sciences Appliqueé de Tanger<br> Formation DCA</h1>
+    
+    </div>
+    <h1 style="text-align: center;">Inscription</h1>
+    <form class="inscription">
+    <fieldset>
+            <legend>Information Personnel :</legend>
+            <div class="infor">
+   <div><label> Nom    : </label> <input  class="nom" type="text" placeholder="Nom" autocomplete="off"></div>
+   <div><label> Prenom : </label><input class="prenom"type="text" placeholder="Prenom" autocomplete="off"></div>
+   <div><label> Age    : </label> <input  class="age" type="text" placeholder="Age" ></div>
+   <div><label> Sexe   : </label><input class="sexe" type="radio" checked/> Masculin <input class="sexe" type="radio">Feminin</div>
+   <div><label> Tel    : </label> <input  class="tel" type="text" placeholder="telephone" ></div>
+   <div><label> fixe   : </label><input class="fixe" type="text" placeholder="fixe"></div>
+            </div>
+</fieldset>
+<input  class="btn" type="submit" value="Inscription">
+</form>
 </body>
 </html>
